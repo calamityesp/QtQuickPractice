@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main2.qml</file>
+        <file>spaceUnsplash_copy.jpg</file>
+        <file>StatusBarM.qml</file>
+    </qresource>
+</RCC>
