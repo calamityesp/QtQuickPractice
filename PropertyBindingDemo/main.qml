@@ -57,12 +57,15 @@ Window {
         width: 100
         height: 100
 
+        //this will break QT property binding in older versions of qt
         MouseArea {
             anchors.fill: parent
             onClicked: {
                 redRectId.width = 100
             }
         }
+
+        //to fix this then we need to do something like this
 
 
 
