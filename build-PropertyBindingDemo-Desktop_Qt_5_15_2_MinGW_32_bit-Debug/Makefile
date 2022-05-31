@@ -247,6 +247,7 @@ Makefile: ../PropertyBindingDemo/PropertyBindingDemo.pro D:/Programs/Qt/5.15.2/m
 		D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/qt_config.prf \
 		D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/win32-g++/qmake.conf \
 		D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/exclusive_builds.prf \
 		D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/toolchain.prf \
 		D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/default_pre.prf \
@@ -277,7 +278,6 @@ Makefile: ../PropertyBindingDemo/PropertyBindingDemo.pro D:/Programs/Qt/5.15.2/m
 		D:/Programs/Qt/5.15.2/mingw81_32/lib/Qt5Network.prl \
 		D:/Programs/Qt/5.15.2/mingw81_32/lib/Qt5Core.prl \
 		D:/Programs/Qt/5.15.2/mingw81_32/lib/qtmain.prl \
-		.qmake.stash \
 		D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/build_pass.prf \
 		../PropertyBindingDemo/qml.qrc
 	$(QMAKE) -o Makefile ..\PropertyBindingDemo\PropertyBindingDemo.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -458,6 +458,7 @@ D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/qt_functions.prf:
 D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/qt_config.prf:
 D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/win32-g++/qmake.conf:
 D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/spec_post.prf:
+.qmake.stash:
 D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/exclusive_builds.prf:
 D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/toolchain.prf:
 D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/default_pre.prf:
@@ -488,7 +489,6 @@ D:/Programs/Qt/5.15.2/mingw81_32/lib/Qt5Qml.prl:
 D:/Programs/Qt/5.15.2/mingw81_32/lib/Qt5Network.prl:
 D:/Programs/Qt/5.15.2/mingw81_32/lib/Qt5Core.prl:
 D:/Programs/Qt/5.15.2/mingw81_32/lib/qtmain.prl:
-.qmake.stash:
 D:/Programs/Qt/5.15.2/mingw81_32/mkspecs/features/build_pass.prf:
 ../PropertyBindingDemo/qml.qrc:
 qmake: FORCE
