@@ -18,6 +18,7 @@ Window {
         color: "red"
     }
 
+    //will use the redRect property binding to increase its size
     Rectangle {
         id: greenRect
         height: 30
@@ -35,6 +36,8 @@ Window {
         }
     }
 
+    //this rectangle will have a mouseOver field that when clicked will break the property binding of the redRect.
+    //however this appears to be fixed in later versions of the application because the binding is still there even after hitting this
     Rectangle {
         id: blueRect
         height: 30
