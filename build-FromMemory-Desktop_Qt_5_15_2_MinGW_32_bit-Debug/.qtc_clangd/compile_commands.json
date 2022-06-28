@@ -9,7 +9,7 @@
         "-I",
         "D:\\Programs\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Keylan Shannon\\AppData\\Local\\Temp\\QtCreator-KPPhrq\\clang-uiheader-peANkh",
+        "C:\\Users\\Keylan Shannon\\AppData\\Local\\Temp\\QtCreator-eLAmmX\\clang-uiheader-kyNrfC",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -80,9 +80,9 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "S:\\Languages\\qt\\FromMemory\\main2.cpp"
+        "S:\\Languages\\qt\\FromMemory\\main.cpp"
     ],
     "directory": "S:/Languages/qt/build-FromMemory-Desktop_Qt_5_15_2_MinGW_32_bit-Debug/.qtc_clangd",
-    "file": "S:/Languages/qt/FromMemory/main2.cpp"
+    "file": "S:/Languages/qt/FromMemory/main.cpp"
 }
 ]
